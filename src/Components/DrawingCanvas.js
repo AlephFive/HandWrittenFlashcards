@@ -110,6 +110,9 @@ const DrawingCanvas = () => {
         onMouseDown={handleMouseDown}
         onMousemove={handleMouseMove}
         onMouseup={handleMouseUp}
+        onPointerDown={handleMouseDown}
+        onPointerMove={handleMouseMove}
+        onPointerUp={handleMouseUp}
       >
         <Layer>
           {lines.map((line, i) => (
