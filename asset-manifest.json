@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HandWrittenFlashcards/static/css/main.5739ad41.chunk.css",
+    "main.js": "/HandWrittenFlashcards/static/js/main.927dfc75.chunk.js",
+    "main.js.map": "/HandWrittenFlashcards/static/js/main.927dfc75.chunk.js.map",
+    "runtime-main.js": "/HandWrittenFlashcards/static/js/runtime-main.cca1f0dc.js",
+    "runtime-main.js.map": "/HandWrittenFlashcards/static/js/runtime-main.cca1f0dc.js.map",
+    "static/js/2.81da24a9.chunk.js": "/HandWrittenFlashcards/static/js/2.81da24a9.chunk.js",
+    "static/js/2.81da24a9.chunk.js.map": "/HandWrittenFlashcards/static/js/2.81da24a9.chunk.js.map",
+    "static/js/3.d7cd4157.chunk.js": "/HandWrittenFlashcards/static/js/3.d7cd4157.chunk.js",
+    "static/js/3.d7cd4157.chunk.js.map": "/HandWrittenFlashcards/static/js/3.d7cd4157.chunk.js.map",
+    "index.html": "/HandWrittenFlashcards/index.html",
+    "static/css/main.5739ad41.chunk.css.map": "/HandWrittenFlashcards/static/css/main.5739ad41.chunk.css.map",
+    "static/js/2.81da24a9.chunk.js.LICENSE.txt": "/HandWrittenFlashcards/static/js/2.81da24a9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/HandWrittenFlashcards/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cca1f0dc.js",
+    "static/js/2.81da24a9.chunk.js",
+    "static/css/main.5739ad41.chunk.css",
+    "static/js/main.927dfc75.chunk.js"
+  ]
+}
