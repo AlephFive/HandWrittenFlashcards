@@ -113,6 +113,7 @@ const DrawingCanvas = () => {
         onPointerDown={handleMouseDown}
         onPointerMove={handleMouseMove}
         onPointerUp={handleMouseUp}
+        style={{"touch-action":"none"}}
       >
         <Layer>
           {lines.map((line, i) => (
