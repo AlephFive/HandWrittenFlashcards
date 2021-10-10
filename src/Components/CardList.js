@@ -76,7 +76,7 @@ export default class CardList extends Component {
     return (
       <div className="list row">
         <div className="col-md-6">
-          <h4>Tutorials List</h4>
+          <h4>FlashCard List</h4>
 
           <ul className="list-group">
             {tutorials &&
