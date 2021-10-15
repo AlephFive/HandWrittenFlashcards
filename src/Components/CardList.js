@@ -87,24 +87,36 @@ export default class CardList extends Component {
       <Row>
         
         <Col xs={3}>
-          <Image src={noimg} rounded/>
+          {i<tutorials.length? 
+            <Link to={"/viewCard/" + tutorials[i].key}><Image src={tutorials[i].preview} rounded fluid style={{"width": "170px", "height": "170px"}}/></Link> 
+            : <div/>
+          }
         </Col>
         <Col xs={3}>
-          hi
+        {i+1<tutorials.length? 
+            <Link to={"/viewCard/" + tutorials[i+1].key}><Image src={tutorials[i+1].preview} rounded fluid style={{"width": "170px", "height": "170px"}}/> </Link>
+            : <div/>
+          }
         </Col>
         <Col xs={3}>
-          hi2
+        {i+2<tutorials.length? 
+            <Link to={"/viewCard/" + tutorials[i+2].key}><Image src={tutorials[i+2].preview} rounded fluid style={{"width": "170px", "height": "170px"}}/> </Link>
+            : <div/>
+          }
         </Col>
         <Col xs={3}>
-          hi2eq
+        {i+3<tutorials.length? 
+            <Link to={"/viewCard/" + tutorials[i+3].key}><Image src={tutorials[i+3].preview} rounded fluid style={{"width": "170px", "height": "170px"}}/> </Link>
+            : <div/>
+          }
         </Col>
       </Row>);
-
     }
 
     return (
 
       <Container>
+        <Link to="/addCard">AddCard</Link>
         {rows}
         
       </Container>

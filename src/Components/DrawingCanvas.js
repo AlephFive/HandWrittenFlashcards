@@ -73,7 +73,9 @@ const DrawingCanvas = () => {
 
 
   const handleSave = () => {
-    const uri = stageRef.current.toDataURL();
+    const uri = stageRef.current.toDataURL({
+      pixelRatio: 0.2
+    });
     console.log(uri);
     let data = {"Layer1":lines, "Layer2":annotations, "Preview":uri};
 
