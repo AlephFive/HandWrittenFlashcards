@@ -4,6 +4,7 @@ import DrawingCanvas from './Components/DrawingCanvas';
 import ViewingCanvas from './Components/ViewingCanvas';
 import CardList from './Components/CardList';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

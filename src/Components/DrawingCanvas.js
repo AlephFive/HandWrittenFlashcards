@@ -15,6 +15,7 @@ const DrawingCanvas = () => {
   const [lines, setLines] = React.useState([]);
   const [annotations, setAnnotations] = React.useState([]);
   const isDrawing = React.useRef(false);
+  const stageRef = React.useRef("TopLayer");
 
   const handleMouseDown = (e) => {
     isDrawing.current = true;
@@ -72,7 +73,9 @@ const DrawingCanvas = () => {
 
 
   const handleSave = () => {
-    let data = {"Layer1":lines, "Layer2":annotations};
+    const uri = stageRef.current.toDataURL();
+    console.log(uri);
+    let data = {"Layer1":lines, "Layer2":annotations, "Preview":uri};
 
     FCDataService.create(data)
       .then((ref) => {
@@ -83,6 +86,11 @@ const DrawingCanvas = () => {
       });
 
   };
+
+
+
+
+
 
 
   return (
@@ -115,7 +123,7 @@ const DrawingCanvas = () => {
         onPointerUp={handleMouseUp}
         style={{"touch-action":"none"}}
       >
-        <Layer>
+        <Layer ref={stageRef}>
           {lines.map((line, i) => (
             <Line
               key={i}
