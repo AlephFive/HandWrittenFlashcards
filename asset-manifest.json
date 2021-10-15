@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/HandWrittenFlashcards/static/css/main.5739ad41.chunk.css",
-    "main.js": "/HandWrittenFlashcards/static/js/main.19947bac.chunk.js",
-    "main.js.map": "/HandWrittenFlashcards/static/js/main.19947bac.chunk.js.map",
-    "runtime-main.js": "/HandWrittenFlashcards/static/js/runtime-main.cca1f0dc.js",
-    "runtime-main.js.map": "/HandWrittenFlashcards/static/js/runtime-main.cca1f0dc.js.map",
-    "static/js/2.81da24a9.chunk.js": "/HandWrittenFlashcards/static/js/2.81da24a9.chunk.js",
-    "static/js/2.81da24a9.chunk.js.map": "/HandWrittenFlashcards/static/js/2.81da24a9.chunk.js.map",
-    "static/js/3.d7cd4157.chunk.js": "/HandWrittenFlashcards/static/js/3.d7cd4157.chunk.js",
-    "static/js/3.d7cd4157.chunk.js.map": "/HandWrittenFlashcards/static/js/3.d7cd4157.chunk.js.map",
+    "main.css": "/HandWrittenFlashcards/static/css/main.a617e044.chunk.css",
+    "main.js": "/HandWrittenFlashcards/static/js/main.5f145292.chunk.js",
+    "main.js.map": "/HandWrittenFlashcards/static/js/main.5f145292.chunk.js.map",
+    "runtime-main.js": "/HandWrittenFlashcards/static/js/runtime-main.22781eec.js",
+    "runtime-main.js.map": "/HandWrittenFlashcards/static/js/runtime-main.22781eec.js.map",
+    "static/css/2.c1256375.chunk.css": "/HandWrittenFlashcards/static/css/2.c1256375.chunk.css",
+    "static/js/2.bb6c4141.chunk.js": "/HandWrittenFlashcards/static/js/2.bb6c4141.chunk.js",
+    "static/js/2.bb6c4141.chunk.js.map": "/HandWrittenFlashcards/static/js/2.bb6c4141.chunk.js.map",
+    "static/js/3.e7cfdb67.chunk.js": "/HandWrittenFlashcards/static/js/3.e7cfdb67.chunk.js",
+    "static/js/3.e7cfdb67.chunk.js.map": "/HandWrittenFlashcards/static/js/3.e7cfdb67.chunk.js.map",
     "index.html": "/HandWrittenFlashcards/index.html",
-    "static/css/main.5739ad41.chunk.css.map": "/HandWrittenFlashcards/static/css/main.5739ad41.chunk.css.map",
-    "static/js/2.81da24a9.chunk.js.LICENSE.txt": "/HandWrittenFlashcards/static/js/2.81da24a9.chunk.js.LICENSE.txt",
+    "static/css/2.c1256375.chunk.css.map": "/HandWrittenFlashcards/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/HandWrittenFlashcards/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.bb6c4141.chunk.js.LICENSE.txt": "/HandWrittenFlashcards/static/js/2.bb6c4141.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/HandWrittenFlashcards/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cca1f0dc.js",
-    "static/js/2.81da24a9.chunk.js",
-    "static/css/main.5739ad41.chunk.css",
-    "static/js/main.19947bac.chunk.js"
+    "static/js/runtime-main.22781eec.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.bb6c4141.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.5f145292.chunk.js"
   ]
 }
