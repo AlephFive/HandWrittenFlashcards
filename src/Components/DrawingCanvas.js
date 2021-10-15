@@ -115,15 +115,15 @@ const DrawingCanvas = () => {
       <Link to="/home">Home</Link>
 
       <Stage
-        width={window.innerWidth}
-        height={window.innerHeight}
+        width={window.innerWidth * 0.8}
+        height={window.innerHeight * 0.8}
         onMouseDown={handleMouseDown}
         onMousemove={handleMouseMove}
         onMouseup={handleMouseUp}
         onPointerDown={handleMouseDown}
         onPointerMove={handleMouseMove}
         onPointerUp={handleMouseUp}
-        style={{"touch-action":"none"}}
+        style={{"touch-action":"none", "border": "1px solid black"}}
       >
         <Layer ref={stageRef}>
           {lines.map((line, i) => (
